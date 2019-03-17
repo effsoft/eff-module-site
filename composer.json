@@ -1,0 +1,47 @@
+{
+  "name": "effsoft/eff-module-site",
+  "description": "",
+  "keywords": ["effsoft","eff-module-site"],
+  "homepage": "https://github.com/effsoft/eff-module-site",
+  "type": "eff-module",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.2.0",
+    "yiisoft/yii2": "~2.0.14",
+    "effsoft/eff": "dev-master"
+  },
+  "require-dev": {
+
+  },
+  "config": {
+    "process-timeout": 1800,
+    "fxp-asset": {
+      "enabled": false
+    }
+  },
+  "autoload" : {
+    "psr-4" : {
+      "effsoft\\eff-module-site\\" : "src/"
+    }
+  },
+  "autoload-dev" : {
+    "psr-4" : {
+      "effsoft\\eff-module-site\\" : "src/"
+    }
+  },
+  "repositories": {
+    "eff":{
+      "type": "path",
+      "url": "../eff"
+    },
+    "asset-packagist":{
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    },
+    "packagist":{
+      "type": "composer",
+      "url": "https://packagist.org"
+    }
+  }
+}
