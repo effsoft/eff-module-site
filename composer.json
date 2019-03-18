@@ -9,7 +9,11 @@
   "require": {
     "php": ">=7.2.0",
     "yiisoft/yii2": "~2.0.14",
-    "effsoft/eff": "dev-master"
+    "effsoft/eff": "dev-master",
+    "effsoft/eff-asset-jquery": "dev-master",
+    "effsoft/eff-asset-bootstrap-bundle": "dev-master",
+    "effsoft/eff-asset-jquery-easing": "dev-master",
+    "effsoft/eff-asset-magnific-popup": "dev-master"
   },
   "require-dev": {
 
@@ -22,15 +26,31 @@
   },
   "autoload" : {
     "psr-4" : {
-      "effsoft\\eff-module-site\\" : "src/"
+      "effsoft\\eff\\module\\site\\" : "src/"
     }
   },
   "autoload-dev" : {
     "psr-4" : {
-      "effsoft\\eff-module-site\\" : "src/"
+      "effsoft\\eff\\module\\site\\" : "src/"
     }
   },
   "repositories": {
+    "eff-asset-jquery":{
+      "type": "path",
+      "url": "../eff-asset-jquery"
+    },
+    "eff-asset-magnific-popup":{
+      "type": "path",
+      "url": "../eff-asset-magnific-popup"
+    },
+    "eff-asset-jquery-easing":{
+      "type": "path",
+      "url": "../eff-asset-jquery-easing"
+    },
+    "eff-asset-bootstrap-bundle":{
+      "type": "path",
+      "url": "../eff-asset-bootstrap-bundle"
+    },
     "eff":{
       "type": "path",
       "url": "../eff"
