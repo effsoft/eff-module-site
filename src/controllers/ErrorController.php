@@ -6,6 +6,11 @@ use effsoft\eff\EffController;
 
 class ErrorController extends EffController{
 
+    public function init(){
+        parent::init();
+
+    }
+
     function actionIndex(){
         return $this->render('index.php',[]);
     }

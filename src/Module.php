@@ -11,10 +11,19 @@ class Module extends EffModule {
     public function init(){
         parent::init();
 
-        $this->registerTranslations();
+        $this->registTranslations();
+        $this->registSubModules();
     }
 
-    public function registerTranslations()
+    public function registSubModules(){
+        $this->modules = [
+            'admin' => [
+                'class' => 'effsoft\eff\module\site\modules\admin\Module',
+            ],
+        ];
+    }
+
+    public function registTranslations()
     {
         \Yii::$app->i18n->translations[$this->module_name .'/*'] = [
             'class' => 'yii\i18n\PhpMessageSource',
