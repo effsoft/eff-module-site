@@ -1,3 +1,4 @@
+1
 <?php
 $this->context->layout = 'site.layout.php';
 $creativeBundle = \effsoft\eff\theme\creative\BootstrapCreativeAssetBundle::register($this);
