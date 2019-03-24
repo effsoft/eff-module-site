@@ -205,13 +205,14 @@
             "dist": {
                 "type": "path",
                 "url": "../eff",
-                "reference": "f1eb85c4e3e87c653b9b2ab875d6caa6f59e7077",
+                "reference": "d94eb100ba37ad1101b2fce6479b447927ed3b67",
                 "shasum": null
             },
             "require": {
                 "php": ">=7.2.0",
                 "sinergi/browser-detector": "~6.1.0",
-                "yiisoft/yii2": "~2.0.14"
+                "yiisoft/yii2": "~2.0.14",
+                "yiisoft/yii2-mongodb": "~2.1.0"
             },
             "type": "eff",
             "autoload": {
@@ -239,7 +240,7 @@
             "dist": {
                 "type": "path",
                 "url": "../eff-asset-bootstrap-bundle",
-                "reference": "61937ba5de7af1f53ab6822dd1790b8760f467fc",
+                "reference": "c946aa5d0bff5847f12fbb02588b5adf1111fe90",
                 "shasum": null
             },
             "require": {
@@ -273,7 +274,7 @@
             "dist": {
                 "type": "path",
                 "url": "../eff-asset-jquery",
-                "reference": "65e20a978488ef2c25c07d03f412b851e385ae2e",
+                "reference": "058bfc0df924ff47bc4f960e02adfddf9b70b8be",
                 "shasum": null
             },
             "require": {
@@ -307,7 +308,7 @@
             "dist": {
                 "type": "path",
                 "url": "../eff-asset-jquery-easing",
-                "reference": "1cb29a3920ea26b3b88a24038d916dc24263c367",
+                "reference": "297a9f0a7a3702847754bdced6d55d92bd803f80",
                 "shasum": null
             },
             "require": {
@@ -342,7 +343,7 @@
             "dist": {
                 "type": "path",
                 "url": "../eff-asset-magnific-popup",
-                "reference": "167c4680e7ef9076a5eea72ba7673a133234eea9",
+                "reference": "305b41ec29f3797ae55c3a0d908b6bbcec1f5acf",
                 "shasum": null
             },
             "require": {
@@ -619,6 +620,55 @@
                 "yii2"
             ],
             "time": "2018-07-05T15:44:47+00:00"
+        },
+        {
+            "name": "yiisoft/yii2-mongodb",
+            "version": "2.1.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/yii2-mongodb.git",
+                "reference": "68fc79f36487da5b386afd16ad7576394d7dd714"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/yii2-mongodb/zipball/68fc79f36487da5b386afd16ad7576394d7dd714",
+                "reference": "68fc79f36487da5b386afd16ad7576394d7dd714",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mongodb": ">=1.0.0",
+                "yiisoft/yii2": "~2.0.14"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "yii\\mongodb\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Paul Klimov",
+                    "email": "klimov.paul@gmail.com"
+                }
+            ],
+            "description": "MongoDB extension for the Yii framework",
+            "keywords": [
+                "GridFS",
+                "active-record",
+                "mongo",
+                "mongodb",
+                "yii2"
+            ],
+            "time": "2018-03-30T15:05:41+00:00"
         }
     ],
     "packages-dev": [],

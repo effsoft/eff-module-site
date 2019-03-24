@@ -19,6 +19,7 @@
 
   },
   "config": {
+    "vendor-dir": "../vendor/eff-module-site",
     "process-timeout": 1800,
     "fxp-asset": {
       "enabled": false

@@ -12,6 +12,6 @@ class HomeController extends EffController{
     }
 
     function actionIndex(){
-        return $this->render('//site/home/index',[]);
+        return $this->render('index',[]);
     }
 }
