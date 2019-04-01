@@ -1,8 +1,8 @@
 <?php
-$this->context->layout = 'creative.layout.php';
+$this->context->layout = '@app/views/layouts/creative.layout.php';
 ?>
 <?php
-$this->title = Yii::t('site/app','logo_text');
+$this->title = \Yii::t('site/app','logo_text');
 ?>
 <div id="page-top"></div>
 <!-- Navigation -->

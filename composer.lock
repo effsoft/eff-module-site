@@ -4,24 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "31560565fae60ef30ab4c764cfc7c13c",
+    "content-hash": "191a6978b23219e65d29f3c0475727fa",
     "packages": [
-        {
-            "name": "bower-asset/bootstrap",
-            "version": "v4.3.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "8fa0d3010112dca5dd6dd501173415856001ba8b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/8fa0d3010112dca5dd6dd501173415856001ba8b",
-                "reference": "8fa0d3010112dca5dd6dd501173415856001ba8b",
-                "shasum": null
-            },
-            "type": "bower-asset"
-        },
         {
             "name": "bower-asset/inputmask",
             "version": "3.3.11",
@@ -33,8 +17,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/RobinHerbots/Inputmask/zipball/5e670ad62f50c738388d4dcec78d2888505ad77b",
-                "reference": "5e670ad62f50c738388d4dcec78d2888505ad77b",
-                "shasum": null
+                "reference": "5e670ad62f50c738388d4dcec78d2888505ad77b"
             },
             "require": {
                 "bower-asset/jquery": ">=1.7"
@@ -55,51 +38,12 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/jquery/jquery-dist/zipball/9e8ec3d10fad04748176144f108d7355662ae75e",
-                "reference": "9e8ec3d10fad04748176144f108d7355662ae75e",
-                "shasum": null
+                "reference": "9e8ec3d10fad04748176144f108d7355662ae75e"
             },
             "type": "bower-asset",
             "license": [
                 "MIT"
             ]
-        },
-        {
-            "name": "bower-asset/jquery.easing",
-            "version": "v1.3.1",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:jozefizso/bower-jquery-easing.git",
-                "reference": "7ddc8b25d24c78bbae8d00a3ae43bf3f274ec8b5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/jozefizso/bower-jquery-easing/zipball/7ddc8b25d24c78bbae8d00a3ae43bf3f274ec8b5",
-                "reference": "7ddc8b25d24c78bbae8d00a3ae43bf3f274ec8b5",
-                "shasum": null
-            },
-            "require": {
-                "bower-asset/jquery": ">=1.2.1"
-            },
-            "type": "bower-asset"
-        },
-        {
-            "name": "bower-asset/magnific-popup",
-            "version": "1.1.0",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:dimsemenov/Magnific-Popup.git",
-                "reference": "6b7a8088783cbce01034414c1fd2d8e1889093ae"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/dimsemenov/Magnific-Popup/zipball/6b7a8088783cbce01034414c1fd2d8e1889093ae",
-                "reference": "6b7a8088783cbce01034414c1fd2d8e1889093ae",
-                "shasum": null
-            },
-            "require": {
-                "bower-asset/jquery": ">=1.8.0"
-            },
-            "type": "bower-asset"
         },
         {
             "name": "bower-asset/punycode",
@@ -112,8 +56,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/bestiejs/punycode.js/zipball/38c8d3131a82567bfef18da09f7f4db68c84f8a3",
-                "reference": "38c8d3131a82567bfef18da09f7f4db68c84f8a3",
-                "shasum": null
+                "reference": "38c8d3131a82567bfef18da09f7f4db68c84f8a3"
             },
             "type": "bower-asset"
         },
@@ -128,8 +71,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/yiisoft/jquery-pjax/zipball/aef7b953107264f00234902a3880eb50dafc48be",
-                "reference": "aef7b953107264f00234902a3880eb50dafc48be",
-                "shasum": null
+                "reference": "aef7b953107264f00234902a3880eb50dafc48be"
             },
             "require": {
                 "bower-asset/jquery": ">=1.8"
@@ -205,8 +147,7 @@
             "dist": {
                 "type": "path",
                 "url": "../eff",
-                "reference": "d94eb100ba37ad1101b2fce6479b447927ed3b67",
-                "shasum": null
+                "reference": "b68b88cef57da4f999bb0eb53b20e5fd2bef3fbe"
             },
             "require": {
                 "php": ">=7.2.0",
@@ -229,143 +170,6 @@
                 "MIT"
             ],
             "homepage": "https://github.com/effsoft/eff",
-            "keywords": [
-                "eff",
-                "effsoft"
-            ]
-        },
-        {
-            "name": "effsoft/eff-asset-bootstrap-bundle",
-            "version": "dev-master",
-            "dist": {
-                "type": "path",
-                "url": "../eff-asset-bootstrap-bundle",
-                "reference": "c946aa5d0bff5847f12fbb02588b5adf1111fe90",
-                "shasum": null
-            },
-            "require": {
-                "bower-asset/bootstrap": "~v4.3.1",
-                "effsoft/eff": "dev-master",
-                "php": ">=7.2.0"
-            },
-            "type": "eff",
-            "autoload": {
-                "psr-4": {
-                    "effsoft\\eff\\asset\\bootstrap\\bundle\\": "src/"
-                }
-            },
-            "autoload-dev": {
-                "psr-4": {
-                    "effsoft\\eff\\asset\\bootstrap\\bundle\\": "src/"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "homepage": "https://github.com/effsoft/eff-asset-bootstrap-bundle",
-            "keywords": [
-                "eff",
-                "effsoft"
-            ]
-        },
-        {
-            "name": "effsoft/eff-asset-jquery",
-            "version": "dev-master",
-            "dist": {
-                "type": "path",
-                "url": "../eff-asset-jquery",
-                "reference": "058bfc0df924ff47bc4f960e02adfddf9b70b8be",
-                "shasum": null
-            },
-            "require": {
-                "bower-asset/jquery": "~3.3.1",
-                "effsoft/eff": "dev-master",
-                "php": ">=7.2.0"
-            },
-            "type": "eff",
-            "autoload": {
-                "psr-4": {
-                    "effsoft\\eff\\asset\\jquery\\": "src/"
-                }
-            },
-            "autoload-dev": {
-                "psr-4": {
-                    "effsoft\\eff\\asset\\jquery\\": "src/"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "homepage": "https://github.com/effsoft/eff-asset-jquery",
-            "keywords": [
-                "eff",
-                "effsoft"
-            ]
-        },
-        {
-            "name": "effsoft/eff-asset-jquery-easing",
-            "version": "dev-master",
-            "dist": {
-                "type": "path",
-                "url": "../eff-asset-jquery-easing",
-                "reference": "297a9f0a7a3702847754bdced6d55d92bd803f80",
-                "shasum": null
-            },
-            "require": {
-                "bower-asset/jquery.easing": "~1.3.1",
-                "effsoft/eff": "dev-master",
-                "effsoft/eff-asset-jquery": "dev-master",
-                "php": ">=7.2.0"
-            },
-            "type": "eff",
-            "autoload": {
-                "psr-4": {
-                    "effsoft\\eff\\asset\\jquery\\easing\\": "src/"
-                }
-            },
-            "autoload-dev": {
-                "psr-4": {
-                    "effsoft\\eff\\asset\\jquery\\easing\\": "src/"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "homepage": "https://github.com/effsoft/eff-asset-jquery-easing",
-            "keywords": [
-                "eff",
-                "effsoft"
-            ]
-        },
-        {
-            "name": "effsoft/eff-asset-magnific-popup",
-            "version": "dev-master",
-            "dist": {
-                "type": "path",
-                "url": "../eff-asset-magnific-popup",
-                "reference": "305b41ec29f3797ae55c3a0d908b6bbcec1f5acf",
-                "shasum": null
-            },
-            "require": {
-                "bower-asset/magnific-popup": "~1.1.0",
-                "effsoft/eff": "dev-master",
-                "php": ">=7.2.0"
-            },
-            "type": "eff",
-            "autoload": {
-                "psr-4": {
-                    "effsoft\\eff\\asset\\magnific\\popup\\": "src/"
-                }
-            },
-            "autoload-dev": {
-                "psr-4": {
-                    "effsoft\\eff\\asset\\magnific\\popup\\": "src/"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "homepage": "https://github.com/effsoft/eff-asset-magnific-popup",
             "keywords": [
                 "eff",
                 "effsoft"
@@ -469,16 +273,16 @@
         },
         {
             "name": "yiisoft/yii2",
-            "version": "2.0.16.1",
+            "version": "2.0.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "089198cced57c4b8c9545ddc56001a1bd114b2dd"
+                "reference": "b56159228c3b4990e38cf41ddd69af27ab015bea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/089198cced57c4b8c9545ddc56001a1bd114b2dd",
-                "reference": "089198cced57c4b8c9545ddc56001a1bd114b2dd",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/b56159228c3b4990e38cf41ddd69af27ab015bea",
+                "reference": "b56159228c3b4990e38cf41ddd69af27ab015bea",
                 "shasum": ""
             },
             "require": {
@@ -565,7 +369,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2019-02-28T07:03:06+00:00"
+            "time": "2019-03-22T21:26:26+00:00"
         },
         {
             "name": "yiisoft/yii2-composer",
@@ -675,11 +479,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "effsoft/eff": 20,
-        "effsoft/eff-asset-jquery": 20,
-        "effsoft/eff-asset-bootstrap-bundle": 20,
-        "effsoft/eff-asset-jquery-easing": 20,
-        "effsoft/eff-asset-magnific-popup": 20
+        "effsoft/eff": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
