@@ -7,6 +7,6 @@ use effsoft\eff\EffController;
 class HomeController extends EffController{
 
     function actionIndex(){
-        return $this->render('index',[]);
+        return $this->render('//site/home/index',[]);
     }
 }

@@ -6,13 +6,9 @@ use effsoft\eff\EffController;
 
 class PageController extends EffController{
 
-    public function init(){
-        parent::init();
+    public function actionManage(){
 
-    }
-
-    public function actionIndex(){
-        var_dump(1);exit;
+        return $this->render('//site/admin/page/manage');
     }
 
     public function actionCreate(){
@@ -20,8 +16,4 @@ class PageController extends EffController{
         return $this->render('//site/admin/page/create');
     }
 
-    public function actionManage(){
-        
-        return $this->render('//site/admin/page/create');
-    }
 }
