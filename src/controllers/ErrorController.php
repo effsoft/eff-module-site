@@ -12,6 +12,6 @@ class ErrorController extends EffController{
     }
 
     function actionIndex(){
-        return $this->render('//site/home/index',[]);
+        return $this->render('//site/error/index',[]);
     }
 }
