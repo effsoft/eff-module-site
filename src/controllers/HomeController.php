@@ -7,6 +7,18 @@ use effsoft\eff\EffController;
 class HomeController extends EffController{
 
     function actionIndex(){
-        return $this->render('//site/home/index',[]);
+        return $this->render('//site/home/index');
+    }
+
+    public function actionCopyright(){
+        return $this->render('//site/policies/copyright');
+    }
+
+    public function actionTermsOfService(){
+        if(\Yii::$app->request->isAjax){
+            return $this->render('//site/policies/terms_of_service_ajax');
+        }else{
+            return $this->render('//site/policies/terms_of_service');
+        }
     }
 }
