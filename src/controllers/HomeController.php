@@ -10,6 +10,7 @@ class HomeController extends EffController{
         if (!\Yii::$app->user->isGuest) {
             return $this->goHome();
         }
+
         return $this->render('//site/home/index');
     }
 
